@@ -1,8 +1,8 @@
 ### Детектор LLM-Атак
 ## Описание
 Система классификации входных промптов для обнаружения атак на языковые модели.
-## Ссылка на скачивание модели
-https://drive.google.com/file/d/16JgHpjcWOOuTgOsiJ5DrSW1_56cpCOhw/view?usp=sharing
+## Ссылка на скачивание модели[
+https://www.kaggle.com/datasets/juta1337/adeversal-detector-weights
 
 
 Детектор анализирует текстовые запросы и определяет их категорию:
@@ -26,21 +26,12 @@ pip install -r requirements.txt
 
 ##Обучение модели
 Обечение модели происходило в google colab
-код train.py
-
-### Интерактивный режим
-
-```bash
-python src/predict.py
-```
+.ipynb file
 
 ## Модель
 
 ### Основная модель
-**XLM-RoBERTa-base**
-- Ссылка: https://huggingface.co/FacebookAI/xlm-roberta-base
-- Размер: ~550 MB
-- Языки: 100+ (включая русский)
+**DeBERTa-small**
 - Архитектура: Transformer encoder
 
 
